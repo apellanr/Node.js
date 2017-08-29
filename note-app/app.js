@@ -5,7 +5,10 @@ const os = require('os');
 const _ = require('lodash');
 const notes = require('./notes.js');
 
-console.log('Result: ', notes.sumFunc(2, 2));
+// console.log(_.isString(true));
+// console.log(_.isString('dracarys'));
+var filterArr = _.uniq(['Ryan', 'Bryan', 'Ryan', 1, 2, 3, 4]);
+console.log(filterArr);
 
 // var user = os.userInfo();
 
