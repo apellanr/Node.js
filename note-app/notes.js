@@ -5,7 +5,3 @@ module.exports.addNote = () => {
     console.log('adding note');
     return 'New note';
 }
-
-module.exports.sumFunc = (a,b) => {
-    return a + b;
-}
